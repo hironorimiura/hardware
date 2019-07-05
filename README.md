@@ -95,6 +95,20 @@ This repository contain the Degu baseboard circuit, BOM and reference of parts n
 
 ## アンテナの指向性
 
+Deguベースユニット、DeguゲートウェイG3に内蔵されているThread通信用のアンテナには指向性があります。
+以下の図のように天面方向へ強く電波が飛びます。※製品面の定義については下記を参照してください。
+
+![](images/degu_base_unit_ant_directivity.svg) ![](images/degu_gw_g3_ant_directivity.svg)
+
+
+### Deguベースユニット製品面の定義
+
+![](images/degu_base_unit_surface.svg)
+
+### DegeゲートウェイG3製品面の定義
+
+![](images/degu_gw_g3_surface.svg)
+
 ## フレネルゾーンの確保
 
 安定した無線通信を行うためには、Deguベースユニット-DeguゲートウェイG3間、Deguベースユニット-Deguベースユニット間
