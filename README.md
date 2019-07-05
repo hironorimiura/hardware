@@ -102,11 +102,14 @@ Deguベースユニット、DeguゲートウェイG3に内蔵されているThre
 
 ### Deguベースユニット製品面の定義
 
-![](images/degu_base_unit_surface.svg)
+<img src="images/degu_base_unit_surface.svg" width="600">
 
 ### DegeゲートウェイG3製品面の定義
 
 ![](images/degu_gw_g3_surface.svg)
+
+## 設置方法
+
 
 ## フレネルゾーンの確保
 
