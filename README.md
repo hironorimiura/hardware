@@ -103,10 +103,13 @@ This repository contain the Degu baseboard circuit, BOM and reference of parts n
 フレネルゾーンの中で、中心部分の半径をフレネルゾーン半径と呼び、一般的にフレネルゾーン半径の60％以上を確保すれば自由空間と同じ特性を得られると言われています。
 フレネルゾーン半径r[m]は、アンテナ間距離から以下のように算出することができます。
 
+![](images/fresnel_zone.svg)
+
 2.4GHzの波長 λ=0.125[m]、アンテナから中心部までの距離 d1[m],d2[m]
 
 <img src="https://latex.codecogs.com/gif.latex?r=\sqrt{\frac{0.125\times&space;d1\times&space;d2}{d1&plus;d2}}" />
 
-アンテナ間距離が100mの場合、約1.8mの高さを確保する必要があります。
+アンテナ間距離が100mの場合、約1.8mのフレネルゾーン半径となります。
+したがって、安定した通信を行うためにはDeguベースユニットおよびDeguゲートウェイG3間を約1.8m以上の高さに設置することが望ましいと言えます。
 
 
