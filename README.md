@@ -106,7 +106,6 @@ Deguベースユニット、DeguゲートウェイG3に内蔵されているThre
 
 ### DegeゲートウェイG3製品面の定義
 
-![](images/degu_gw_g3_surface.svg)
 
 ## フレネルゾーンの確保
 
