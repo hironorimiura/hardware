@@ -89,3 +89,24 @@ This repository contain the Degu baseboard circuit, BOM and reference of parts n
 |JP3|1-2pinをオープン|
 
 ![](images/JP-COIN.svg)
+
+
+# Antenna directivity and installation / アンテナの指向性と設置方法
+
+## アンテナの指向性
+
+## フレネルゾーンの確保
+
+安定した無線通信を行うためには、Deguベースユニット-DeguゲートウェイG3間、Deguベースユニット-Deguベースユニット間
+の通信経路においてフレネルゾーンを確保する必要があります。
+フレネルゾーンとは、アンテナ間を結ぶ直線を中心に広がる回転楕円体の空間で、この空間内に障害物があると無線通信に影響します。
+フレネルゾーンの中で、中心部分の半径をフレネルゾーン半径と呼び、一般的にフレネルゾーン半径の60％以上を確保すれば自由空間と同じ特性を得られると言われています。
+フレネルゾーン半径r[m]は、アンテナ間距離から以下のように算出することができます。
+
+2.4GHzの波長 λ=0.125[m]、アンテナから中心部までの距離 d1[m],d2[m]
+
+<img src="https://latex.codecogs.com/gif.latex?r=\sqrt{\frac{0.125\times&space;d1\times&space;d2}{d1&plus;d2}}" />
+
+アンテナ間距離が100mの場合、約1.8mの高さを確保する必要があります。
+
+
