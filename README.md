@@ -100,7 +100,6 @@ Deguベースユニット、DeguゲートウェイG3に内蔵されているThre
 
 ![](images/degu_base_unit_ant_directivity.svg) ![](images/degu_gw_g3_ant_directivity.svg)
 
-
 ### Deguベースユニット製品面の定義
 
 ![](images/degu_base_unit_surface.svg)
