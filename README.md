@@ -123,9 +123,11 @@ Deguベースユニット、DeguゲートウェイG3に内蔵されているThre
 
 2.4GHzの波長 λ=0.125[m]、アンテナから中心部までの距離 d1[m],d2[m]
 
-<img src="https://latex.codecogs.com/gif.latex?r=\sqrt{\frac{0.125\times&space;d1\times&space;d2}{d1&plus;d2}}" />
+<img src="https://latex.codecogs.com/gif.latex?r=\sqrt{\frac{\lambda&space;\times&space;d1\times&space;d2}{d1&plus;d2}}" />
+
 
 アンテナ間距離が100mの場合、約1.8mのフレネルゾーン半径となります。
 したがって、安定した通信を行うためにはDeguベースユニットおよびDeguゲートウェイG3間を約1.8m以上の高さに設置することが望ましいと言えます。
 
+<img src="https://latex.codecogs.com/gif.latex?r=\sqrt{\frac{0.125\times&space;50\times&space;50}{50&plus;50}}\fallingdotseq&space;1.8" />
 
