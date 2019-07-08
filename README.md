@@ -125,9 +125,9 @@ Deguベースユニット、DeguゲートウェイG3に内蔵されているThre
 
 <img src="https://latex.codecogs.com/gif.latex?r=\sqrt{\frac{\lambda&space;\times&space;d1\times&space;d2}{d1&plus;d2}}" />
 
-
-アンテナ間距離が100mの場合、約1.8mのフレネルゾーン半径となります。
-したがって、安定した通信を行うためにはDeguベースユニットおよびDeguゲートウェイG3間を約1.8m以上の高さに設置することが望ましいと言えます。
+アンテナ間距離が100mの場合、フレネルゾーン半径r[m]は以下の計算式から約1.8mとなります。
+したがって、安定した通信を行うためにはDeguベースユニットおよびDeguゲートウェイG3を約1.8m以上(60%だと1.08m以上)の高さに設置することが望ましいと言えます。
 
 <img src="https://latex.codecogs.com/gif.latex?r=\sqrt{\frac{0.125\times&space;50\times&space;50}{50&plus;50}}\fallingdotseq&space;1.8" />
+
 
